@@ -5,6 +5,7 @@
   "main": "src/app.js",
   "scripts": {
     "start": "nodemon --inspect src/app.js",
+    "watch":"node-sass --watch src/resources/scss --output src/public/css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -14,5 +15,8 @@
     "express-handlebars": "^7.1.2",
     "morgan": "^1.10.0",
     "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "node-sass": "^9.0.0"
   }
 }

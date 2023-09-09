@@ -1,11 +1,12 @@
 const express = require('express');
 const morgan = require('morgan')
 const path = require('path')
-
 const { engine } = require('express-handlebars');
-
-
 const app = express();
+
+app.use(express.static(path.join(__dirname,'public')))
+
+
 //HTTP logger
 app.use(morgan('combined'))
 
