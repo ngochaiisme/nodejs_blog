@@ -1,30 +1,28 @@
 {
-  "name": "blog",
+  "name": "nodejs_blog",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
-    "start":"nodemon --inspect index.js",
+    "start": "nodemon --inspect src/app.js",
+    "watch": "node-sass --watch src/resources/scss --output src/public/css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NgocHai0511/nodejs_blog.git"
-  },
-  "keywords": [
-    "blog",
-    "dnh"
-  ],
-  "author": "haidn",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/NgocHai0511/nodejs_blog/issues"
-  },
-  "homepage": "https://github.com/NgocHai0511/nodejs_blog#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^7.5.0",
+    "mongoose-delete": "^1.0.1",
+    "mongoose-slug-generator": "^1.0.4",
+    "mongoose-slug-updater": "^3.3.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1"
   },
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "node-sass": "^9.0.0",
+    "prettier": "^3.0.3"
   }
 }
