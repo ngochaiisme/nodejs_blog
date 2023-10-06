@@ -1,5 +1,5 @@
-A simple build application built with nodejs
+# A Simple Build Application with Node.js
 
-https://fake-ytb.onrender.com/
-Website crashes?
-Don't worry... Please wait a moment and then reload the page to access the website
+[Visit the Application](https://fake-ytb.onrender.com/)
+
+**Please wait a while for your first visit.**
